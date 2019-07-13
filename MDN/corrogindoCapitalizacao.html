@@ -49,7 +49,7 @@
 	      var firstLetter = lower.slice(0, 1);
 	      var capitalized = lower.replace(firstLetter, firstLetter.toUpperCase());
 	      var result = capitalized;
-	      var listItem = documentCreateElement('li');
+	      var listItem = document.createElement('li');
 	      listItem.textContent = result;
 	      list.appendChild(listItem);
 	    }
