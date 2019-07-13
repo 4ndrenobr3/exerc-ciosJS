@@ -44,7 +44,7 @@
           var semiC = input.indexOf(';');
           var name = input.slice(semiC, +1);
           var result = code + ': ' + name;
-          var listItem = documentcreateElememt('li');
+          var listItem = document.createElement('li');
           listItem.textContent = result;
           list.appendChild(listItem);
         }
