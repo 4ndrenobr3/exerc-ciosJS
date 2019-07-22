@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset = "utf-8">
+      <title>Advinha Número</title>
+   </head>
+   <body>
+     
+      <script>
+        var nAleatorio = Math.round(Math.random() * 100);
+        
+        var nJogador = prompt('Tente adivinhar o número: ');
+        
+        if(nJogador === nAleatorio){
+          alert('Parabéns você acertou, o número é ' + nAleatorio);
+        }
+        else{
+          alert('Errou! O número correto é ' + nAleatorio);
+        }
+      </script>
+   </body>
+</html>
