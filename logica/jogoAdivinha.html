@@ -10,7 +10,7 @@
       <button>Click</button>
       
       <script>
-        var password = 8;
+        var password = Math.round(Math.random() * 10);
         var input = document.querySelector('input');
         
         function verify(){
@@ -20,6 +20,8 @@
           else{
             alert('Senha Incorreta!');
           }
+          input.value = "";
+          input.focus();
         }
         
         var button = document.querySelector('button');
