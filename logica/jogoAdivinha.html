@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset = "utf-8">
+      <title>Advinha Número</title>
+   </head>
+   <body>
+     
+      <input>
+      <button>Click</button>
+      
+      <script>
+        var password = 8;
+        var input = document.querySelector('input');
+        
+        function verify(){
+          if(input.value == password){
+            alert('Senha Correta!');
+          }
+          else{
+            alert('Senha Incorreta!');
+          }
+        }
+        
+        var button = document.querySelector('button');
+        button.onclick = verify;
+      </script>
+   </body>
+</html>
