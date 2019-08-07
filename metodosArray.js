@@ -41,3 +41,10 @@ array.splice(3); // Remove a partir do indice 3
 array.splice(1, 3) //Remove 3 itens a partir do indice 1
 array.splice(1, 0, 5) //Não remove nada e adiciona o 5 a partir do indice 1
 
+
+// forEach
+
+array.forEach(function(item, index, array){
+	console.log(item, index, array);
+});
+
