@@ -6,4 +6,10 @@ var map = arr.map(function(item, index, array){
 	return item * 2;
 });
 
-console.log(arr, map);
+// Irá filtrar e retornar os itens do map maiores que 4
+
+var filter = map.filter(function(item, index, array){
+  return item > 4;
+});
+
+console.log(arr, map, filter);
